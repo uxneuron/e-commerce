@@ -1,0 +1,131 @@
+# 🛍️ Meesho Clone — E-Commerce Web Application
+
+A full-stack e-commerce web application inspired by the core shopping experience of Meesho.
+
+## 🚀 Project Overview
+
+This project provides an e-commerce platform where:
+
+* Customers can browse products
+* Customers can register and login
+* Sellers can add products
+* Products are stored in PostgreSQL
+* Users are authenticated using JWT
+* Customers can add products to cart
+* Customers can place orders
+* Sellers can manage their products
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+
+### Backend
+
+* Python
+* FastAPI
+* SQLAlchemy
+* JWT Authentication
+
+### Database
+
+* PostgreSQL
+
+### Additional Technologies
+
+* REST API
+* Pydantic
+* Password Hashing
+
+## 📁 Project Structure
+
+```text
+meesho-clone/
+│
+├── backend/
+│   ├── venv/
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── auth.py
+│   └── .env
+│
+└── frontend/
+```
+
+## ✅ Current Progress
+
+* [x] FastAPI setup
+* [x] PostgreSQL connection
+* [x] User model
+* [x] Customer/Seller roles
+* [x] User registration
+* [x] User login
+* [x] Password hashing
+* [x] JWT authentication
+* [x] Category model
+* [x] Product model
+* [x] Create category API
+* [x] Get categories API
+* [x] Create product API
+* [x] Get products API
+* [x] Seller authorization
+
+## 🔜 Next Features
+
+### Backend
+
+* [ ] Product CRUD
+* [ ] Cart system
+* [ ] Wishlist
+* [ ] Address management
+* [ ] Order system
+* [ ] Order status
+* [ ] Product search
+* [ ] Product filtering
+* [ ] Product reviews
+* [ ] Admin APIs
+
+### Frontend
+
+* [ ] React setup
+* [ ] Home page
+* [ ] Product listing
+* [ ] Product details
+* [ ] Login/Register
+* [ ] Cart
+* [ ] Checkout
+* [ ] Orders
+* [ ] Seller dashboard
+* [ ] Admin dashboard
+
+## 🔐 User Roles
+
+```text
+Customer
+   ↓
+Browse products
+Add to cart
+Place orders
+
+Seller
+   ↓
+Add products
+Update products
+Manage products
+
+Admin
+   ↓
+Manage users
+Manage sellers
+Manage products
+Manage orders
+```
+
+## 🎯 Goal
+
+Build a complete, responsive, production-style e-commerce application while learning how a real-world React + FastAPI + PostgreSQL application works.
